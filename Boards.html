@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <title>Trello</title>
+</head>
+
+<body class="wrapper">
+    <header>
+
+        <nav>
+            <div class="nav1">
+                <a href="index.html"><i class="fas fa-home i"></i></a>
+                <a href="Boards.html"><i class="fab fa-trello b"> Boards</i></a>
+                <div>
+                    <form action="#action">
+                        <input type="text" placeholder="Search">
+                        <i class="fas fa-search i search"></i>
+                    </form>
+                </div>
+                <a href="#" class="aLogo"><i class="fab fa-trello logo">Trello</i></a>
+            </div>
+
+            <div class="nav2">
+                <a href="#"><i class="fas fa-plus i"></i></a>
+                <a href="#"><i class="fas fa-info-circle i"></i></a>
+                <a href="#"><i class="fas fa-bell i"></i></a>
+                <a href="#"><i class="fas fa-user i"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="s1" class="p1">
+            <div class="dotli">
+                <h4>To Do</h4>
+                <h4 class="dot">. . .</h4>
+            </div>
+            <div class="inter">
+
+
+                <form id="todoForm">
+                    <input type="text" id="Input" placeholder="to-do...">
+                    <button type="button" class="btu" onclick="todoList()"><i class="fas fa-plus add"></i></button>
+                </form>
+
+                <ul id="todoList">
+                    <li id="li">jj</li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div id="s2" class="p1">
+            <div class="dotli">
+                <h4>Doing on</h4>
+                <h4 class="dot2"> . . .</h4>
+            </div>
+        <div class="drop">
+            
+        </div>
+
+        </div>
+        <div id="s3" class="p1">
+            <div class="dotli">
+                <h4>Done</h4>
+                <h4 class="dot">. . .</h4>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
